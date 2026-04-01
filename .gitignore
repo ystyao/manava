@@ -1,0 +1,15 @@
+# 环境变量与安全凭证 (绝对不能上传)
+.env
+
+# Python 缓存文件
+__pycache__/
+*.py[cod]
+
+# 音频与本地生成的缓存文件 (体积大且每天更新，没必要传)
+audio/*.mp3
+audio/*.json
+audio/*.wav
+butler.log
+
+# 如果你的模型文件太大 (>50MB)，也可以取消下面这行的注释不传它
+# manava_health_model.pkl
